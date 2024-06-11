@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.home-container {
+    .jumbotron {
+      background-color: #f8f9fa;
+      padding: 2rem 1rem;
+      border-radius: 0.3rem;
+    }
+  
+    .planes, .highlights {
+      margin-top: 2rem;
+  
+      h2 {
+        margin-bottom: 1.5rem;
+      }
+    }
+  
+    .card {
+      margin-bottom: 1.5rem;
+  
+      img {
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+  
+    .list-group-item {
+      background-color: #fff;
+      border: 1px solid #dee2e6;
+      margin-bottom: 0.5rem;
+    }
+  }

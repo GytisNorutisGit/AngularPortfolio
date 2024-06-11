@@ -1,19 +1,16 @@
 <div class="home container mt-5">
-  <h1 class="text-center">Welcome to My Angular Website!</h1>
-  <p class="text-center">This is an overview of the website.</p>
+  <h1 class="text-center">Aviation Insights.</h1>
+  <p class="text-center">Comprehensive Information and Analysis on Modern Aircraft</p>
   <nav>
     <ul class="nav nav-pills justify-content-center">
       <li class="nav-item">
-        <a class="nav-link" routerLink="/" routerLinkActive="active" aria-current="page">Home</a>
+        <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" aria-current="page">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/products" routerLinkActive="active">Products/Services</a>
       </li>
     </ul>
   </nav>
